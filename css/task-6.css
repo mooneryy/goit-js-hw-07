@@ -1,0 +1,17 @@
+input {
+    display: flex;
+    padding: 8px 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    color: #2E2F42;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.64px;
+}
