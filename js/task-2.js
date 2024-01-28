@@ -32,17 +32,3 @@ const gallery = document.querySelector('.gallery');
 const galleryHTML = images.map(({ url, alt }) => `<li class="gallery-item"><img src="${url}" alt="${alt}"></li>`).join('');
 
 gallery.innerHTML = galleryHTML;
-
-
-// images.forEach(({ url, alt }) => {
-//   const li = document.createElement('li');
-//   li.className = 'gallery-item';
-
-//   const img = document.createElement('img');
-//   img.src = url;
-//   img.alt = alt;
-
-//   li.appendChild(img);
-//   gallery.appendChild(li)
-
-// });
